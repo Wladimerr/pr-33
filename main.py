@@ -13,7 +13,7 @@ class myApp(App):
             background_color=[1, 0.5, 0, 1],
             background_normal='',
             size_hint=(.5, .25),
-            pos_hint={'center_x': 0.5, 'center_y': 0.8}));
+            pos_hint={'center_x': 0.5, 'center_y': 0.7}));
         fl.add_widget(Button(
             text="Кнопка 2",
             font_size=20,
@@ -21,7 +21,7 @@ class myApp(App):
             background_color=[0.5, 0, 1, 1],
             background_normal='',
             size_hint=(.5, .25),
-            pos_hint={'center_x': 0.5, 'center_y': 0.5}));
+            pos_hint={'center_x': 0.5, 'center_y': 0.3}));
         return fl
 
     def btn1_press(self, instance):
